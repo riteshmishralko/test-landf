@@ -1,0 +1,11 @@
+php version  = 8.0
+Laravel Framework 8.83
+
+
+
+
+1. 	run command "composer install"
+
+2.	database name = "lf_test"
+
+3. 	run command "php artisan serve"
