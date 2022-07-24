@@ -16,7 +16,6 @@ class ProductController extends Controller
     {
         $products = Product::all();
         return view('product.index', compact('products'));
-        // return view('product.index');
     }
 
     /**
@@ -82,7 +81,6 @@ class ProductController extends Controller
             $cart[$request->id]["quantity"] = $request->quantity;
             
             session()->put('cart', $cart);
-            // session()->flash('success', 'Cart updated successfully');
         }
     }
 
